@@ -1,0 +1,77 @@
+body {
+    font-weight: bold; /* Set the font weight to bold for all text within the body */
+    background-image: url('../static/images/iris_img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  h3 { 
+    margin-top: 250px;
+  color: blue; /* Change the font color to red */
+  text-align: center; /* Align the text to the center */
+  }
+  input { 
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  select {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+  
+  }
+  
+  .button-green {
+  background-color: lightgreen ;
+  padding: 5px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  /* form {
+    margin-top: 200px ; 
+    margin-left: 400px;
+    text-align: center; 
+    width: 400px; 
+    background-color: rgb(185, 205, 205);
+  } */
+  .p1{
+    padding: 15px;
+    font-size: 20px;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  .div1{
+    margin-top: 180px ; /*Center align the form */
+    margin-left: 400px;
+    text-align: center; /* Center align form elements within the form */
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 400px; /* Adjust the width as per your requirement */
+    background-color: rgb(185, 205, 205);
+    height: 330px;
+  }
+  .div11{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #553c9a;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: cornsilk;
+    padding: 10px;
+  }
+  label {
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+    color: purple; 
+    font-weight: bold;
+}
+  .centered-container {
+  text-align: center;
+  font-weight: bold;
+}

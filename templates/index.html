@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html>
+    <head>
+        <title>IRIS FLOWER CLASSIFICATION</title>
+        <link rel= "stylesheet" href='static/styles.css'>
+    </head>
+
+    <body>
+        <!-- <h3>IRIS FLOWER CLASSIFICATION</h3> -->
+        <div class="div1">
+        <form action="/predict" method="post">
+            <p class = "p1">IRIS FLOWER CLASSIFICATION</p>
+        <label for="spl">Sepal Length(CM):</label>
+        <input type="text" name="spl" id="spl" required><br><br>
+        <label for="spw">Sepal Width(CM):</label>
+        <input type="text" name="spw" id="spw" required><br><br>
+        <label for="ptl">Petal Length(CM):</label>
+        <input type="text" name="ptl" id="ptl" required><br><br>
+        <label for="ptw">Petal Width(CM):</label>
+        <input type="text" name="ptw" id="ptw" required><br><br>
+
+        <input type="submit" value="Predict" class="button-green" >
+        </form>
+    </div>
+        {% if prediction %}
+        <h1 class="div11" >{{prediction}}</h1>
+        {% endif %}
+        
+        
+        
+    </body>
+</html>
